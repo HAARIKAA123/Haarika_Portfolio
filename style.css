@@ -21,7 +21,6 @@ body{
     animation: switchText 4s infinite;
     font-weight: bold;
 }
-
 @keyframes switchText {
     0%, 30% {
         content: "Java Full Stack Developer";
@@ -35,14 +34,6 @@ body{
         content: "Software Developer";
         color: darkblue;
     }
-}
-
-/* Contact box text dynamic spacing */
-.contact-box-left {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    text-align: left;
 }
 .about-container{
     max-width:1200px;
@@ -59,9 +50,7 @@ body{
 
     box-shadow:0 0 20px rgba(255,77,166,0.2);
 }
-
 /* NAVBAR */
-
 nav{
     background:#161b22;
     padding:20px 8%;
@@ -75,13 +64,6 @@ nav{
     justify-content:space-between;
     align-items:center;
 }
-
-.logo{
-    color:#ff4da6;
-    font-size:28px;
-    font-weight:bold;
-}
-
 nav ul{
     display:flex;
     list-style:none;
@@ -101,9 +83,7 @@ nav ul li a{
 nav ul li a:hover{
     color:#ff4da6;
 }
-
 /* HOME */
-
 .hero{
     min-height:100vh;
     background:#0d1117;
@@ -112,35 +92,15 @@ nav ul li a:hover{
     justify-content:center;
     padding:100px 10% 0;
 }
-
 .hero-content{
     width:100%;
     display:flex;
     justify-content:space-between;
     align-items:center;
 }
-.highlight-name{
-    display:inline-block;
-
-    padding:10px 25px;
-
-    border:3px solid #ed117f43;
-
-    border-radius:15px;
-
-    color:white;
-
-    box-shadow:
-    0 0 10px #ff4da6,
-    0 0 20px #ff4da6;
-
-    margin:15px 0;
-}
-
 .hero-left{
     width:60%;
 }
-
 .hero-right{
     width:40%;
     display:flex;
@@ -149,19 +109,15 @@ nav ul li a:hover{
 
 .hero-left h3{
     font-size:32px;
-    
 }
-
 .hero-left h1{
     font-size:70px;
     margin:10px 0;
 }
-
 .hero-left h2{
     font-size:40px;
     margin-bottom:15px;
 }
-
 .hero-left span{
     color:#00e5ff;
 }
@@ -170,8 +126,6 @@ nav ul li a:hover{
     font-size:22px;
     line-height:1.7;
 }
-
-
 .profile-img{
     width: 300px;
     height: 300px;
@@ -180,12 +134,9 @@ nav ul li a:hover{
     border-color: #d878a8;
 
 }
-
-
 .social-icons{
     margin:25px 0;
 }
-
 .social-icons a{
     display:inline-flex;
     justify-content:center;
@@ -205,14 +156,10 @@ nav ul li a:hover{
 
     transition:0.3s;
 }
-
 .social-icons a:hover{
     background:#ff4da6;
     color:white;
 }
-
-
-
 .btn{
     display:inline-block;
     padding:12px 30px;
@@ -228,7 +175,6 @@ nav ul li a:hover{
     box-shadow:0 0 20px #ff4da6;
 }
 
-
 section{
     padding:80px 10%;
 }
@@ -239,17 +185,12 @@ section h2{
     margin-bottom:30px;
 }
 
-
-
-
-
 .card-container {
     display: flex;
     justify-content: center; 
     gap: 15px;             
     margin-top: 20px;
 }
-
 
 .card {
     background: rgba(255, 77, 166, 0.05); 
@@ -271,6 +212,7 @@ section h2{
     display: flex;
     flex-direction: column;
     gap: 25px; 
+}
 
 .project-box h3 {
     color: #ff4da6; 
@@ -300,25 +242,6 @@ footer{
     color:white;
 }
 
-
-
-.certificate-box {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    min-height: 200px; 
-}
-
-#certificate-image {
-    display: none; 
-    max-width: 90%;
-    width: 500px; 
-    border-radius: 12px;
-    border: 2px solid rgba(255, 77, 166, 0.5);
-    box-shadow: 0 0 20px rgba(255, 77, 166, 0.3);
-}
 
 .cert-card {
     cursor: pointer;
