@@ -49,6 +49,14 @@ body{
     backdrop-filter:blur(10px);
 
     box-shadow:0 0 20px rgba(255,77,166,0.2);
+    transition: all 0.3s ease;
+    cursor: default;
+
+}
+.about-container:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 77, 166, 0.15);
+    box-shadow: 0 5px 15px rgba(255, 77, 166, 0.4);
 }
 /* NAVBAR */
 nav{
@@ -83,6 +91,12 @@ nav ul li a{
 nav ul li a:hover{
     color:#ff4da6;
 }
+body{
+    background:#0d1117;
+    color:white;
+    transition:0.4s;
+}
+
 /* HOME */
 .hero{
     min-height:100vh;
